@@ -1,0 +1,22 @@
+.jumbotron {
+    font-family: "Nova Slim";
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.portfolioItem{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;    
+}
+
+.portfolioItem.portfolioItemShow{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
+.beehon-profile{
+    width: 150px;
+    height: 150px;
+}
